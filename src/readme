@@ -1,0 +1,53 @@
+You are required to build a web app named Feynman Board. What it is? Well, the following is how we would explain you:
+
+Please refer to the functionality required to be built for each page:
+
+LANDING PAGE
+This will be the home page where user must land whenever they visit
+the web app.
+User must be able to put in it’s username and advance to the next screen - DASHBOARD.
+
+DASHBOARD
+An overview of all the topics which user has written content about along with the
+percentage of understanding they have acquired till date. User is also able to see a button to add new topic to his/her dashboard.
+The button “ADD TOPIC” redirects to ADD TOPIC Page and the topic list consists of all the topics written by the user so far along with a percentage of their level of understanding so far as per the categories mentioned below:
+• UNDERSTOOD
+• SOMEWHAT UNDERSTOOD
+• NOT CLEAR
+• WHAT RUBBISH
+
+ADD TOPIC
+User gets a text editor or text area wherein he or she enters a topic’s name and writes about it in detail in the text area
+In the text area all the content must be identified and separated in blocks by ,-{}[]()/|. or new line each block of the topic must be stored in the database.
+User must be able to select any block from the text area and categorize each block into anyone of the following categories as per their level of understanding:
+• UNDERSTOOD
+• SOMEWHAT UNDERSTOOD
+• NOT CLEAR
+• WHAT RUBBISH
+
+CATEGORIZATION OF CONTENT
+The content is required to be separated and classified into various blocks and stored into the database. The delimiter or separators of the content must be the following characters:
+, Comma
+- Hyphen
+() [] {} All types of brackets
+‘’ “” Inverted quotes and double quotes
+\ Back Slash
+/ Forward Slash
+; Semicolon
+: Colon
+? Question Mark
+. Dot (or Fullstop)
+| Pipe symbol Or New Line
+
+The content in the text area is required to categorized in four categories by the user:
+1 UNDERSTOOD
+2 SOMEWHAT UNDERSTOOD
+3 NOT CLEAR
+4 WHAT RUBBISH
+The user must be enabled to select any of the above four options by any other call action through their device.
+
+HOW THE PERCENTAGE OF Understanding WILL BE DECIDED?
+Each Block of text will be having upto 4 points (1 – Totally rubbish, 2- Not Clear, 3- Somewhat Understood, 4-Totally Understood). Percentage of understanding is calculated by the following formula.:
+(Sum of points got from each block /Total number of text blocks * 4) * 100
+
+
